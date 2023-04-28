@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" type="text/css" href="./style.css">
+    <style>
+    .first{
+        color:rgb(214, 46, 17) ;
+        font-style: italic ;
+        font-size: 20px;
+    }
+    .second{
+        color: brown;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    .three{
+        background-color: yellow;
+        
+    }
+    .a{
+        text-decoration: none;
+    font-style: oblique;
+    background-color: yellow;
+    }
+</style>
+</head>
+<body>
+    <!-- inline CSS -->
+    <h1 style="color:rgb(202, 39, 39)">This is First CSS Assignment</h1>
+    <hr>
+    <h2 style="color:rgb(233, 142, 56)">What is CSS</h2>
+    <ol style="color:brown; font-size:  20px;">
+        <li>CSS stand for cascading style sheet</li>
+        <li>CSS describe how HTML elements areto be displayed on screen, paper, or in other media</li>
+        <li><span style="text-decoration: line-through;">CSS is not necessary</span><span style="background-color: yellow;">Css saves a lot of work</span>It can control the multiple web pages all at once</li>
+        <li style="text-decoration: underline; font-style:italic;"> External Stylesheet are stored in CSS file </li>
+    </ol>
+
+    <!-- internal css -->
+    <h3 class="first">CSS can added to HTML documents in 3 ways:</h3>
+    <ul class="second">
+        <li>Inline- by using the style attribute inside HTML elements</li>
+        <li> Internal - by using a style element in the head section</li>
+    <li>External- by using a link element to link to an external CSS file</li>
+    <li>The most common way to add CSS, is to keep the style in external CSS file. However <span class="three" ><b>in this tutorial we will use inline and internal styles,</b></span>because this is easier to demonstrate, and easier for you to try it yourself 
+    </li>
+    </ul>
+    <!-- external CSS -->
+<p>When comparing CSS class vs ID, the difference is that CSS class applies a style to multiple Elements. ID, on the other hand, applies a style to one unique element. ID is also special in that you can use special URL to link directly to an element and it's used by javascript</p>
+
+<p>In CSS, selectors are used to target a specific element or range of element on web page. Once an element has been targated, a style or set of style can be applied to the element</p>
+<p>There is wide range of selectors Avalaible. Two of the most commonly used are class and ID. Both are used to target elements to which a style should be applied</p>
+<a class="a" href="https://prepbytes.com">prepbytes Home</a>
+</body>
+
+</html>
